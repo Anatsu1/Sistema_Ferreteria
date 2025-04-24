@@ -1,0 +1,39 @@
+header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:var(--header-bg);
+    top: 0;
+    position: sticky;
+    z-index: 10;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#usuario h2{
+    vertical-align: middle;
+    font-size: 29px;
+    text-align: center;
+    color: var(--header-letter);
+    width: 350px;
+}
+
+#botonera {
+    margin-left: 10px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4,1fr);
+}
+.boton{
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: var(--bt-bg);
+    color: var(--bt-letter);
+    padding: 25px;
+}
+
+.boton:hover{
+    color: var(--letter-hover);
+}
+

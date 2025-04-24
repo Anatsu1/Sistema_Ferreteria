@@ -1,0 +1,116 @@
+#contenedor{
+    justify-items: space-around;
+    display: flex;
+    align-items: top;
+}
+
+.funcion{
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--bt-letter);
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: var(--bt-bg);
+}
+
+#busqueda{
+    padding: 10px;
+    max-width: 50vw;
+    height: auto;
+    overflow: auto;
+}
+
+#busqueda h3{
+    font-size: 22px;
+    color: var(--letter-hover);
+}
+
+#busqueda input{
+    padding: 8px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#busqueda select{
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#tablaHistorialCredito{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    overflow: auto;
+    width: 100%;
+    margin: 10px;
+    max-height: 40vh;
+}
+
+#tablaHistorial{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    overflow: auto;
+    width: 100%;
+    margin: 10px;
+    max-height: 40vh;
+}
+
+#tablaProveedor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    overflow: auto;
+    width: 100%;
+    margin: 10px;
+    max-height: 60vh;
+}
+
+#tablaLiveProd{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    overflow: auto;
+    max-height: 35vh;
+}
+
+#tablaProductos{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    overflow: auto;
+    max-height: 60vh;
+}
+
+.boxGrid{
+    text-align: center;
+    border: 1px solid var(--bt-letter);
+    background-color: var(--bt-bg);
+    padding: 3px;
+    color: white;
+}
+
+.boxHed{
+    font-size: 17px;
+    background-color: var(--header-bg);
+}
+
+.boxFunc{
+    grid-column: span 2;
+}
+
+.boxTitle{
+    grid-column: span 5;
+    background-color:rgb(42, 34, 70);
+}
+
+.buttom{
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: var(--bt-bg);
+    color: var(--bt-letter);
+    padding: 6px;
+}
+
+#txtHint{
+    font-size: 16px;
+}

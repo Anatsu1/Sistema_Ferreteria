@@ -1,0 +1,73 @@
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#central {
+    margin-top: 10px;
+    max-width: 340px;
+    width: 100%;
+}
+
+
+#formulario {
+    overflow: auto;
+    width: 100%;
+    padding: 50px 30px;
+    background-color: var(--bg-secondary-color);
+    color: white;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+}
+
+#loginform{
+    display: grid;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginform input{
+    padding: 8px;
+}
+
+#loginform label{
+    font-size: 18px;
+}
+
+.buttom{
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: var(--bt-bg);
+    color: var(--bt-letter);
+    padding: 6px;
+    grid-column: span 2;
+}
+
+@media screen and (max-height:700px) {
+    #loginform{
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(4,1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    #central {
+        width: auto;
+        max-width: 800px;
+    }
+    
+}

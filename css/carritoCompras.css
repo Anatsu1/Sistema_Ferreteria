@@ -1,0 +1,110 @@
+#contenedor{
+    justify-items: space-around;
+    display: flex;
+    align-items: top;
+    flex-wrap: wrap;
+}
+
+#busqueda{
+    padding: 10px;
+    max-width: 300px;
+    height: auto;
+}
+
+#busqueda h3{
+    font-size: 22px;
+    color: var(--letter-hover);
+}
+
+#busqueda input{
+    padding: 8px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#busqueda select{
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#carrito{
+    width: 100%;
+    margin: 5px;
+    max-height: 30vh;
+    overflow: auto;
+}
+
+#tablaCarrito{
+    background-color: var(--primary-color);
+    color: white;
+    width: 100%;
+    border-radius: 7px;
+
+}
+
+#tableHead{
+    background-color: var(--secondary-color);
+}
+
+#tablaCarrito th{
+    width: auto;
+    padding: 10px;
+}
+
+
+#tablaCarrito tr td{
+    text-align: center;
+}
+
+#tablaCarrito tfoot td{
+    text-align: start;
+}
+
+#txtHint{
+    max-height: 20vh;
+    overflow: auto;
+    width: 70%;
+    margin: 10px 10px 0px 10px;
+}
+
+#tablaLiveProd{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    max-height: 35vh;
+}
+
+.boxGrid{
+    text-align: center;
+    border: 1px solid var(--bt-letter);
+    background-color: var(--bt-bg);
+    padding: 4px;
+    color: white;
+}
+
+.input{
+    padding: 5px;
+    background-color: var(--primary-color);
+}
+
+.input::placeholder{
+    color: white;
+}
+
+.boxHed{
+    font-size: 17px;
+}
+
+.boxFunc{
+    grid-column: span 2;
+}
+
+.buttom{
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: var(--bt-bg);
+    color: var(--bt-letter);
+    padding: 6px;
+}
