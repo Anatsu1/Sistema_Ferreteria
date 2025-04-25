@@ -1,3 +1,3 @@
 <?php
-    $conexion = mysqli_connect('localhost','root','','ferreteriarozzo') or die(mysqli_error());
+    $conexion = mysqli_connect('localhost','root','','ferreteria') or die(mysqli_error());
 ?>

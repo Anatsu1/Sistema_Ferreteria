@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestion Ferreteria Rozzo</title>
+    <title>Gestion Ferreteria</title>
     <link rel="icon" type="image/x-icon" href="imagenes/iconos/ferreteria.ico">
     <link rel="stylesheet" type="text/css" href="css/colors.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -51,8 +51,6 @@
         }
     ?>
     </div>
-    <div id="marcaDagua">
-        <h4>Creado por: Matias Gigena/Cesar Augusto Fernandez Carbonell</h4>
     </div>
 </footer>
 </body>
